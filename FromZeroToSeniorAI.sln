@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromZeroToSeniorAI.Api", "src\FromZeroToSeniorAI.Api\FromZeroToSeniorAI.Api.csproj", "{7D4070B2-3FE3-4AC2-9809-AD7520662143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromZeroToSeniorAI.Api.Tests", "tests\FromZeroToSeniorAI.Api.Tests\FromZeroToSeniorAI.Api.Tests.csproj", "{2DE137B7-A41C-4B8D-A390-D78D813030EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D4070B2-3FE3-4AC2-9809-AD7520662143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4070B2-3FE3-4AC2-9809-AD7520662143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4070B2-3FE3-4AC2-9809-AD7520662143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4070B2-3FE3-4AC2-9809-AD7520662143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE137B7-A41C-4B8D-A390-D78D813030EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE137B7-A41C-4B8D-A390-D78D813030EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE137B7-A41C-4B8D-A390-D78D813030EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE137B7-A41C-4B8D-A390-D78D813030EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
+

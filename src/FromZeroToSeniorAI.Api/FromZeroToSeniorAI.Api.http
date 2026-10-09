@@ -1,0 +1,28 @@
+@baseUrl = http://localhost:5080
+
+### Create a category
+POST {{baseUrl}}/api/categories
+Content-Type: application/json
+
+{
+  "name": "Bebidas"
+}
+
+### List categories
+GET {{baseUrl}}/api/categories
+
+### Create a product (replace categoryId)
+POST {{baseUrl}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Café",
+  "description": "Café filtrado",
+  "price": 4.50,
+  "isAvailable": true,
+  "categoryId": "00000000-0000-0000-0000-000000000000"
+}
+
+### List products
+GET {{baseUrl}}/api/products
+
